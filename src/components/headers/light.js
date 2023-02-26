@@ -96,7 +96,7 @@ export default ({
   const defaultLogoLink = (
     <LogoLink href="/">
       <img src={logo} alt="logo" />
-    </LogoLink>
+    </LogoLink> 
   );
 
   logoLink = logoLink || defaultLogoLink;

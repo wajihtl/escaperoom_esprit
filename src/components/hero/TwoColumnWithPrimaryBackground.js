@@ -46,7 +46,7 @@ export default ({
   const navLinks = [
     <NavLinks key={1}>
       <NavLink href="#">Features</NavLink>
-      <NavLink href="#">Pricing</NavLink>
+      <NavLink href="#" about="blank">Pricing</NavLink>
       <NavLink href="#">Login</NavLink>
       <PrimaryLink href="#">Signup</PrimaryLink>
     </NavLinks>

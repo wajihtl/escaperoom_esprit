@@ -5,6 +5,7 @@ import MainFeature2 from "components/features/TwoColWithTwoHorizontalFeaturesAnd
 import Testimonial from "components/testimonials/TwoColumnWithImageAndRating.js";
 import GetStarted from "components/cta/GetStarted";
 import Footer from "components/footers/FiveColumnWithBackground.js";
+import dorra from "../images/dorra.jpeg";
 import prototypeIllustrationImageSrc from "images/prototype-illustration.svg";
 import { ReactComponent as BriefcaseIcon } from "feather-icons/dist/icons/briefcase.svg";
 import { ReactComponent as MoneyIcon } from "feather-icons/dist/icons/dollar-sign.svg";
@@ -42,29 +43,25 @@ export default () => {
         ]}
       />
       <Testimonial
-        className="ml-144"
-        subheading={<Subheading>Testimonials</Subheading>}
+        subheading={<Subheading>OUR TEAM</Subheading>}
         heading={
           <>
-            Our Clients <HighlightedText>Love Us.</HighlightedText>
+            Meet our <HighlightedText>minds.</HighlightedText>
           </>
         }
         testimonials={[
           {
-            stars: 5,
-            profileImageSrc:
-              "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
-            heading: "Amazing User Experience",
+            profileImageSrc: dorra,
+            heading: "Let us introduce ourselves!",
             quote:
-              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-            customerName: "Charlotte Hale",
-            customerTitle: "Director, Delos Inc.",
+              "As the head of our data science team, Dorra brings a wealth of expertise in data analytics, machine learning, and artificial intelligence. With a Ph.D. in computer science and plenty of experience in the field, Dorra has been instrumental in shaping our organization's data strategy and driving innovation through data-driven insights.",
+            customerName: "Dorra Trabelsi",
+            customerTitle: "ESPRIT",
           },
           {
-            stars: 5,
             profileImageSrc:
               "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",
-            heading: "Love the Developer Experience and Design Principles !",
+            heading: "Let us introduce ourselves!",
             quote:
               "Sinor Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
             customerName: "Adam Cuppy",
